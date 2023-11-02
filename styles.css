@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#shopName{
+  text-align: center;
+  color: #2f3db8;
+}
+
+#formTitle{
+  text-align: center;
+  margin-bottom: -15px;
+}
+
+#description {
+  text-align: center;
+  color: #666;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 97%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+select {
+  height: 40px;
+  width: 50%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 1px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#submit {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 0.5px solid black ;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 110%;
+  display: block;
+  margin: auto;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+p{
+  margin-top: 23px;
+  margin-bottom: 15px;
+  margin-left: px;
+}
+
+label[for="comments"]{
+  margin-top: 30px;
+}
